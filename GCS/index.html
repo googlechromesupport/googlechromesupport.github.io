@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chrome Support</title>
+    <link rel="shortcut icon" type="image/png" href="Chrome_icon.png"/>
+<link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>.team-clean {
+  color:#313437;
+  background-color:#fff;
+}
+
+.team-clean p {
+  color:#7d8285;
+}
+
+.team-clean h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .team-clean h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.team-clean .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto;
+}
+
+.team-clean .intro p {
+  margin-bottom:0;
+}
+
+.team-clean .people {
+  padding-bottom:40px;
+}
+
+.team-clean .item {
+  text-align:center;
+  padding-top:50px;
+}
+
+.team-clean .item .name {
+  font-weight:bold;
+  margin-top:28px;
+  margin-bottom:8px;
+  color:inherit;
+}
+
+.team-clean .item .title {
+  text-transform:uppercase;
+  font-weight:bold;
+  color:#d0d0d0;
+  letter-spacing:2px;
+  font-size:13px;
+}
+
+.team-clean .item .description {
+  font-size:15px;
+  margin-top:15px;
+  margin-bottom:20px;
+}
+
+.team-clean .item img {
+  max-width:160px;
+}
+
+.team-clean .social {
+  font-size:18px;
+  color:#a2a8ae;
+}
+
+.team-clean .social a {
+  color:inherit;
+  margin:0 10px;
+  display:inline-block;
+  opacity:0.7;
+}
+
+.team-clean .social a:hover {
+  opacity:1;
+}
+
+</style>
+<style>.highlight-clean {
+  color:#313437;
+  background-color:#fff;
+  padding:50px 0;
+}
+
+.highlight-clean p {
+  color:#7d8285;
+}
+
+.highlight-clean h2 {
+  font-weight:bold;
+  margin-bottom:25px;
+  line-height:1.5;
+  padding-top:0;
+  margin-top:0;
+  color:inherit;
+}
+
+.highlight-clean .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 25px;
+}
+
+.highlight-clean .buttons {
+  text-align:center;
+}
+
+.highlight-clean .buttons .btn {
+  padding:16px 32px;
+  margin:6px;
+  border:none;
+  background:none;
+  box-shadow:none;
+  text-shadow:none;
+  opacity:0.9;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:0.4px;
+  line-height:1;
+  outline:none;
+  background-color:#ddd;
+}
+
+.highlight-clean .buttons .btn:hover {
+  opacity:1;
+}
+
+.highlight-clean .buttons .btn:active {
+  transform:translateY(1px);
+}
+
+.highlight-clean .buttons .btn-primary {
+  background-color:#055ada;
+  color:#fff;
+}
+
+</style>
+<style>.header-blue {
+  background:linear-gradient(135deg, #21a9af, #4d60fe);
+  background-color:#184e8e;
+  padding-bottom:80px;
+  font-family:'Source Sans Pro', sans-serif;
+}
+
+@media (min-width:768px) {
+  .header-blue {
+    padding-bottom:120px;
+  }
+}
+
+.header-blue .navbar {
+  background:transparent;
+  padding-top:.75rem;
+  padding-bottom:.75rem;
+  color:#fff;
+  border-radius:0;
+  box-shadow:none;
+  border:none;
+}
+
+@media (min-width:768px) {
+  .header-blue .navbar {
+    padding-top:1rem;
+    padding-bottom:1rem;
+  }
+}
+
+.header-blue .navbar .navbar-brand {
+  font-weight:bold;
+  color:inherit;
+}
+
+.header-blue .navbar .navbar-brand:hover {
+  color:#f0f0f0;
+}
+
+.header-blue .navbar .navbar-collapse {
+  border-top:1px solid rgba(255,255,255,0.3);
+  margin-top:.5rem;
+}
+
+@media (min-width:768px) {
+  .header-blue .navbar .navbar-collapse {
+    border-color:transparent;
+    margin:0;
+  }
+}
+
+.header-blue .navbar .navbar-collapse span .login {
+  color:#d9d9d9;
+  margin-right:.5rem;
+  text-decoration:none;
+}
+
+.header-blue .navbar .navbar-collapse span .login:hover {
+  color:#fff;
+}
+
+.header-blue .navbar .navbar-toggler {
+  border-color:rgba(255,255,255,0.3);
+}
+
+.header-blue .navbar .navbar-toggler:hover, .header-blue .navbar-toggler:focus {
+  background:none;
+}
+
+.header-blue .navbar .navbar-nav a.active, .header-blue .navbar .navbar-nav > .show .dropdown-item {
+  background:none;
+  box-shadow:none;
+}
+
+@media (min-width: 768px) {
+  .header-blue .navbar-nav .nav-link {
+    padding-left:.7rem;
+    padding-right:.7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-blue .navbar-nav .nav-link {
+    padding-left:1.2rem;
+    padding-right:1.2rem;
+  }
+}
+
+.header-blue .navbar .navbar-nav > li > .dropdown-menu {
+  margin-top:-5px;
+  box-shadow:0 4px 8px rgba(0,0,0,.1);
+  background-color:#fff;
+  border-radius:2px;
+}
+
+.header-blue .navbar .dropdown-menu .dropdown-item:focus, .header-blue .navbar .dropdown-menu .dropdown-item {
+  line-height:2;
+  color:#37434d;
+}
+
+.header-blue .navbar .dropdown-menu .dropdown-item:focus, .header-blue .navbar .dropdown-menu .dropdown-item:hover {
+  background:#ebeff1;
+}
+
+.header-blue .action-button, .header-blue .action-button:not(.disabled):active {
+  border:1px solid rgba(255,255,255,0.7);
+  border-radius:40px;
+  color:#ebeff1;
+  box-shadow:none;
+  text-shadow:none;
+  padding:.3rem .8rem;
+  background:transparent;
+  transition:background-color 0.25s;
+  outline:none;
+}
+
+.header-blue .action-button:hover {
+  color:#fff;
+}
+
+.header-blue .navbar .form-inline label {
+  color:#d9d9d9;
+}
+
+.header-blue .navbar .form-inline .search-field {
+  display:inline-block;
+  width:80%;
+  background:none;
+  border:none;
+  border-bottom:1px solid transparent;
+  border-radius:0;
+  color:#ccc;
+  box-shadow:none;
+  color:inherit;
+  transition:border-bottom-color 0.3s;
+}
+
+.header-blue .navbar .form-inline .search-field:focus {
+  border-bottom:1px solid #ccc;
+}
+
+.header-blue .hero {
+  margin-top:20px;
+  text-align:center;
+}
+
+@media (min-width:768px) {
+  .header-blue .hero {
+    margin-top:60px;
+    text-align:left;
+  }
+}
+
+.header-blue .hero h1 {
+  color:#fff;
+  font-size:40px;
+  margin-top:0;
+  margin-bottom:15px;
+  font-weight:300;
+  line-height:1.4;
+}
+
+@media (min-width:992px) {
+  .header-blue .hero h1 {
+    margin-top:190px;
+    margin-bottom:24px;
+    line-height:1.2;
+  }
+}
+
+.header-blue .hero p {
+  color:rgba(255,255,255,0.8);
+  font-size:20px;
+  margin-bottom:30px;
+  font-weight:300;
+}
+
+.header-blue .phone-holder {
+  text-align:right;
+}
+
+.header-blue div.iphone-mockup {
+  position:relative;
+  max-width:300px;
+  margin:20px;
+  display:inline-block;
+}
+
+.header-blue .iphone-mockup img.device {
+    height: auto;
+width: 520px;
+    margin: 0;
+}
+
+
+
+.header-blue .iphone-mockup .screen {
+    position: absolute;
+    width: 77%;
+    height: 63%;
+    top: 10%;
+    border-radius: 2px;
+    left: 47%;
+    background-color: #aaa;
+    overflow: hidden;
+    background: url(Chrome_icon.png);
+    background-size: cover;
+}
+
+.header-blue .iphone-mockup .screen:before {
+  /* content:'';
+  background-color:#fff;
+  position:absolute;
+  width:70%;
+  height:140%;
+  top:-12%;
+  right:-60%;
+  transform:rotate(-19deg);
+  opacity:0.2; */
+}
+
+</style>
+<style>.footer-clean {
+  padding:50px 0;
+  background-color:#fff;
+  color:#4b4c4d;
+}
+
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.footer-clean .item.social {
+  text-align:right;
+}
+
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align:center;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin-left:10px;
+  margin-top:22px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity:0.9;
+}
+
+@media (max-width:991px) {
+  .footer-clean .item.social > a {
+    margin-top:40px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-clean .item.social > a {
+    margin-top:10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top:14px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
+}
+
+</style>
+  </head>
+  <body class="animated fadeIn">
+     <div class="animated">
+        <div class="header-blue">
+           <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+              <div class="container">
+                 <a href="#" class="navbar-brand">Chrome Support<br></a><button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                 <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+                       <li role="presentation" class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                       <li class="dropdown">
+                          <!-- <a data-toggle="dropdown" aria-expanded="false" href="#" class="dropdown-toggle nav-link dropdown-toggle">Other</a> -->
+                          <div role="menu" class="dropdown-menu"><a role="presentation" href="#" class="dropdown-item">First Item</a><a role="presentation" href="#" class="dropdown-item">Second Item</a><a role="presentation" href="#" class="dropdown-item">Third Item</a></div>
+                       </li>
+                    </ul>
+                    <form target="_self" class="form-inline mr-auto">
+                       <div class="form-group"><label for="search-field"></label></div>
+                    </form>
+                    <span class="navbar-text"> <a href="#" class="login">Log In</a></span><a class="btn btn-light action-button" role="button" href="onlinesupportchat/index.php"><strong>Chat Support</strong><br></a>
+                 </div>
+              </div>
+           </nav>
+           <div class="container hero">
+              <div class="row">
+                 <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+                    <h1>Google Chrome Support<br></h1>
+                    <p>If you're having trouble accessing a Google product, there's a chance we're currently experiencing a temporary problem.<br></p>
+                    <button class="btn btn-light btn-lg action-button" type="button">Learn More</button>
+                 </div>
+                 <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder" style="margin:0;">
+                    <div class="iphone-mockup">
+                       <img src="flat-laptop.png" class="animated slideInLeft device">
+                       <div class="animated rotateIn screen"></div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+     <div class="highlight-clean">
+        <div class="container">
+           <div class="intro">
+              <h2 class="text-center">Chrome Support</h2>
+              <p class="text-center">We offer live chats to figure out what your issue is.</p>
+           </div>
+           <div class="buttons"><a class="btn btn-primary" role="button" href="#">Call (coming soon)</a><button class="btn btn-light" type="button">CHAT</button></div>
+        </div>
+     </div>
+     <div class="team-clean">
+        <div class="container">
+           <div class="intro">
+              <h2 class="text-center">Team </h2>
+              <p class="text-center">Meet the team </p>
+           </div>
+           <div class="row people">
+              <div class="col-md-6 col-lg-4 item">
+                 <img src="faceone.png" class="rounded-circle">
+                 <h3 class="name">Zac Johnson</h3>
+                 <p class="title">support CHAT</p>
+                 <p class="description">Hi, im Zac and here to help 24/7</p>
+                 <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                 <img src="facetwo.png" class="rounded-circle">
+                 <h3 class="name">Emily Clark</h3>
+                 <p class="title">engineer</p>
+                 <p class="description">Hi, Emily here fixing google issues since 2006
+</p>
+                 <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                 <img src="facethree.png" class="rounded-circle">
+                 <h3 class="name">Carl Kent</h3>
+                 <p class="title">Web Design</p>
+                 <p class="description">Hi, im Carl making google and google support look nice
+
+</p>
+                 <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+              </div>
+           </div>
+        </div>
+     </div>
+     <div class="footer-clean">
+        <footer>
+           <div class="container">
+              <div class="row justify-content-center">
+                 <div class="col-sm-4 col-md-3 item">
+                    <h3>Site</h3>
+                    <ul>
+                       <li><a href="#">Home</a></li>
+                       <li><a href="#">About</a></li>
+                       <li><a href="#">Join Us</a></li>
+                    </ul>
+                 </div>
+                 <div class="col-lg-3 item social">
+                    <!-- <a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a> -->
+                    <p class="copyright">Chrome Support © 2012</p>
+                 </div>
+              </div>
+           </div>
+        </footer>
+     </div>
+  </body>
+</html>

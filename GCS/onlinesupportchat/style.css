@@ -1,0 +1,87 @@
+
+/* CSS Document */
+body {
+	    background: linear-gradient(135deg, #21a9af, #4d60fe);
+	font:12px arial;
+	color: #222;
+	text-align:center;
+	 }
+.RULE{
+	 	text-align: center;
+	 	color: #ff4747;
+	 }
+form, p, span {
+	margin:0;
+	padding:0; }
+
+input { font:12px arial;
+	 }
+	 #submitmsg {
+	     background-color: #ffffff;
+	     border: none;
+	     color: black;
+	     padding: 10px 22px;
+	     text-align: center;
+	     text-decoration: none;
+	 }
+a {
+	color:#000;
+	text-decoration:none; }
+
+	a:hover { text-decoration:underline; }
+
+#wrapper, #loginform {
+	margin: 22px;
+	padding-bottom:15px;
+ }
+.welcome{
+	display: none;
+}
+#loginform { padding-top:18px; }
+
+	#loginform p { margin: 5px; }
+
+	#chatbox {
+	    text-align: left;
+	    margin: 0 auto;
+	    margin-bottom: 15px;
+	    padding: 10px;
+	    background: #feffff;
+	    height: 270px;
+	    color: #000000;
+			border: #333 solid 2px;
+	    overflow: auto;
+	}
+
+#usermsg {
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	background-color: #ffffff;
+	color: #252525;
+	width: 50%;
+	border: #333 solid 2px;
+	margin-right: 2%;
+ }
+.RULE{
+	display: none;
+}
+#submit { width: 60px; }
+
+.error { color: #ff0000; }
+
+#menu { padding:12.5px 25px 12.5px 25px; }
+
+.welcome { float:left; }
+
+.logout { float:right; }
+
+.msgln { margin:0 0 10px 0; }
+
+.svr{
+		border-radius: 20%;
+    border: 3px solid #fff;
+    width: 4%;
+		height: 50px;
+}
